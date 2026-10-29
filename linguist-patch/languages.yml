@@ -1,0 +1,12 @@
+# Append to lib/linguist/languages.yml:
+
+Yolish:
+  type: programming
+  color: "#00d2ff"
+  extensions:
+    - .y
+  tm_scope: source.yolish
+  ace_mode: text
+  codemirror_mode: rust
+  codemirror_mime_type: text/x-rustsrc
+  language_id: 894521094

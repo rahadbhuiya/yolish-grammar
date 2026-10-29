@@ -1,0 +1,29 @@
+{
+  "name": "yolish-grammar",
+  "displayName": "Yolish TextMate Grammar",
+  "description": "Official TextMate and VS Code syntax grammar for the Yolish programming language",
+  "version": "1.0.0",
+  "publisher": "rahadbhuiya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahadbhuiya/yolish-grammar"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "yolish",
+        "aliases": ["Yolish", "ys"],
+        "extensions": [".y"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "yolish",
+        "scopeName": "source.yolish",
+        "path": "./syntaxes/yolish.tmLanguage.json"
+      }
+    ]
+  }
+}
