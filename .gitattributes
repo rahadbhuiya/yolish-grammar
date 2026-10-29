@@ -1,0 +1,7 @@
+# Auto-detect text files and perform LF normalization
+* text=auto
+
+# Exclude patch, sample, and ruby files from language statistics
+linguist-patch/** linguist-vendored=true linguist-documentation=true
+*.rb linguist-documentation=true
+*.y linguist-documentation=true
